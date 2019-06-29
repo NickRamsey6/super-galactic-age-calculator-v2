@@ -6,15 +6,15 @@
 
 ## Description NEED UPDATE
 
-_For my fourth code review, I built a webpage that will take a pizza order from a user and return the price of that order. Price is based on size and as many toppings as wanted can be selected, free of charge. <a href="PUT LINK HERE">Link here</a>_
+_For my first full time code review, I built and tested the back end requirements for an application that provides the age of users on other planets. I set the standard life expectancy for human beings to be 79 Earth years. Source: Google.>_
 
 ## Setup/Installation Requirements NEED UPDATE
 
-* _Visit my git hub repository: <a href="https://github.com/NickRamsey6/pizza-order">GitHub Repo</a>_
+* _Visit my git hub repository: <a href="https://github.com/NickRamsey6/super-galactic-age-calculator-v2">GitHub Repo</a>_
 * _Click the site link_
 * _Explore_
 * _Clone the repo_
-* _git clone https://github.com/NickRamsey6/pizza-order.git _
+* _git clone https://github.com/NickRamsey6/super-galactic-age-calculator-v2 _
 
 
 ## Specs (Initial May Change)
