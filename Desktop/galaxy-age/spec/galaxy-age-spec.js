@@ -1,50 +1,49 @@
-import {earthAge, ageDays, mercuryAge, venusAge, marsAge, jupiterAge, yearsLeftEarth, yearsLeftMercury, yearsLeftVenus, yearsLeftMars, yearsLeftJupiter} from './../src/age-calc.js';
+import {birthdate, today, Planet, Earth, Mercury, Venus, Mars, Jupiter} from './../src/age-calc.js';
 describe ('galctic age', function() {
 
   it('should calculate an age in (Earth) years based off a given birthdate', function() {
-    expect(earthAge(new Date("1994/2/14"), new Date())).toEqual(25);
-    // console.log(earthAge(new Date("1994/2/14"), new Date()));
+    expect(Earth.age).toEqual(25);
   });
-
-  it('should convert age in (Earth) years to days', function(){
-    expect(ageDays(25)).toEqual(9125);
+  it('should calculate remaining life expectancy in Earth years', function() {
+    expect(Earth.yearsLeft).toEqual(54);
   });
-
-  it('should calculate age in Mercury years', function(){
-    expect(mercuryAge(9125)).toEqual(104);
+  it('should calculate an age in (Mercury) years based off a given birthdate', function() {
+    expect(Mercury.age).toEqual(105);
   });
-
-  it('should calculate age in Venus years', function(){
-    expect(venusAge(9215)).toEqual(41);
+  it('should calculate remaining life expectancy in Mercury years', function() {
+    expect(Mercury.yearsLeft).toEqual(223);
   });
-
-  it('should calculate age in Mars years', function(){
-    expect(marsAge(9215)).toEqual(13);
+  it('should calculate an age in (Venus) years based off a given birthdate', function() {
+    expect(Venus.age).toEqual(41);
   });
-
-  it('should calculate age in Jupiter years', function(){
-    expect(jupiterAge(9215)).toEqual(2);
+  it('should calculate remaining life expectancy in Venus years', function() {
+    expect(Venus.yearsLeft).toEqual(87);
   });
-
-  it('should calculate how many years left on earth', function(){
-    expect(yearsLeftEarth(25)).toEqual(54);
+  it('should calculate an age in (Mars) years based off a given birthdate', function() {
+    expect(Mars.age).toEqual(14);
   });
-
-  it('should calculate how many years left on Mercury', function(){
-    expect(yearsLeftMercury(104)).toEqual(224);
+  it('should calculate remaining life expectancy in Mars years', function() {
+    expect(Mars.yearsLeft).toEqual(28);
   });
-
-  it('should calculate how many years left on Venus', function(){
-    expect(yearsLeftVenus(41)).toEqual(87);
+  it('should calculate an age in (Jupiter) years based off a given birthdate', function() {
+    expect(Jupiter.age).toEqual(2);
   });
-
-  it('should calculate how many years left on Mars', function(){
-    expect(yearsLeftMars(13)).toEqual(29);
+  it('should calculate remaining life expectancy in Jupiter years', function() {
+    expect(Jupiter.yearsLeft).toEqual(5);
   });
-
-  it('should calculate how many years left on Jupiter', function(){
-    expect(yearsLeftJupiter(2)).toEqual(5);
-  })
-//   it('should calculate age in Venus years', function(){
-//     expect(venusAge(9125)).toEqual(40);
+  it('should test if a person has outlived their life expectancy on Earth', function() {
+    expect(Earth.oldTimer).toEqual(false);
+  });
+  it('should test if a person has outlived their life expectancy on Mercury', function() {
+    expect(Mercury.oldTimer).toEqual(false);
+  });
+  it('should test if a person has outlived their life expectancy on Venus', function() {
+    expect(Venus.oldTimer).toEqual(false);
+  });
+  it('should test if a person has outlived their life expectancy on Mars', function() {
+    expect(Mars.oldTimer).toEqual(false);
+  });
+  it('should test if a person has outlived their life expectancy on Jupiter', function() {
+    expect(Jupiter.oldTimer).toEqual(false);
+  });
 });
