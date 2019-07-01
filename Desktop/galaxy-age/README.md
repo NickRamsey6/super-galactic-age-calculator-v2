@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _Enter your birthdate to calculate how old you are and how long you can expect to live on various planets_
+#### _Take a birthdate to calculate how old you are and how long you can expect to live on various planets_
 
 #### By _**Nick Ramsey**_
 
@@ -19,7 +19,7 @@ _For my first full time code review, I built and tested the back end requirement
 * _NPM Run Build_
 
 
-## Specs (Initial May Change)
+## Specs (Initial, May Change)
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -52,7 +52,7 @@ _Email nramseysc@gmail.com with any questions, comments, or concerns!_
 
 ## Technologies Used NEED UPDATE
 
-_Built with html, css, java script and Jquery and bootstrap_
+_Built with webpack, javascript, jasmine, karma and babel_
 
 ### License
 
