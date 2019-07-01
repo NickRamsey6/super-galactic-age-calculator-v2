@@ -4,17 +4,19 @@
 
 #### By _**Nick Ramsey**_
 
-## Description NEED UPDATE
+## Description
 
 _For my first full time code review, I built and tested the back end requirements for an application that provides the age of users on other planets. I set the standard life expectancy for human beings to be 79 Earth years. Source: Google.>_
 
-## Setup/Installation Requirements NEED UPDATE
+## Setup/Installation Requirements
 
 * _Visit my git hub repository: <a href="https://github.com/NickRamsey6/super-galactic-age-calculator-v2">GitHub Repo</a>_
 * _Click the site link_
 * _Explore_
 * _Clone the repo_
 * _git clone https://github.com/NickRamsey6/super-galactic-age-calculator-v2 _
+* _NPM Install_
+* _NPM Run Build_
 
 
 ## Specs (Initial May Change)
@@ -40,7 +42,7 @@ _For my first full time code review, I built and tested the back end requirement
 | Has user overstayed their welcome on Jupiter? | age on Jupiter: 7, life expectancy on Jupiter: 7 | False, user is on their last expected year |
 
 
-## Known Bugs NEED UPDATE
+## Known Bugs
 
 * _n/a_
 

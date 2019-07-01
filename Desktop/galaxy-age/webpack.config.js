@@ -24,6 +24,11 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
               'style-loader',
               'css-loader'
             ]
+          },
+          {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            loader: "eslint-loader"
           }
         ]
       }
